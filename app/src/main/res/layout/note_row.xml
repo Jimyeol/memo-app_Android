@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_alignParentLeft="true"
+        android:hint="@string/memoadd_no_title"
+        android:id="@+id/textView1"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/date_row"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:hint="@string/memoadd_no_body"
+        android:id="@+id/textbody"
+        android:paddingLeft="20dp"
+        android:textColor="#555555"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/date_row"
+        android:layout_below="@+id/textView1"/>
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:textSize = "10sp"
+        android:id="@+id/date_row"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="setting_activity_top_title"
+    android:title="설정">
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/option_list_title_popup">
+        <SwitchPreference
+            android:key = "setting_popup_on_off"
+            android:title="@string/option_list_popup_onoff"
+            android:selectable="true"/>
+        <Preference
+            android:key = "setting_popup_transparent"
+            android:title="@string/option_list_pupup_transparent"
+            android:selectable="true"/>
+        <Preference
+            android:key = "setting_popup_design_choice"
+            android:title="@string/option_list_pupup_color_pick"
+            android:selectable="true"/>
+        <Preference
+            android:key = "setting_popup_text_size"
+            android:title="글자 크기"
+            android:selectable="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/option_list_title_note">
+        <Preference
+            android:key="setting_memo_all_delete"
+            android:title="@string/option_list_note_all_delete"
+            android:selectable="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/option_list_title_app">
+        <Preference
+            android:key="setting_activity_app_version"
+            android:title="@string/option_list_version"
+            android:selectable="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

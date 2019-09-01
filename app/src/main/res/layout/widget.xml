@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/wid_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/popup_back" />
+
+    <TextView
+        android:id="@+id/widtext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="left|top"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="New Text"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base" >
+        <item name="android:colorBackground">@color/colorBlueLight</item>
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorOrange</item>
+        <item name="colorPrimaryDark">@color/colorOrange</item>
+        <item name="colorAccent">@color/colorOrange</item>
+        <item name="android:windowBackground">@color/theme_icons</item>
+        <!--android:windowBackground // body 색상-->
+        <item name="android:textColorPrimary">@color/theme_icons</item>
+        <item name="actionMenuTextColor">@color/theme_icons</item>
+        <item name="android:textColorSecondary">@color/theme_icons</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:popupBackground">@color/colorTrans</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="colorPrimary">@color/colorOrange</item>
+        <item name="colorPrimaryDark">@color/colorOrange</item>
+        <item name="colorAccent">@color/colorOrange</item>
+        <item name="android:windowBackground">@color/colorTrans</item>
+        <!--android:windowBackground // body 색상-->
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <item name="actionMenuTextColor">@color/colorBlack</item>
+        <item name="android:textColorSecondary">@color/colorBlack</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:popupBackground">@android:color/black</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>

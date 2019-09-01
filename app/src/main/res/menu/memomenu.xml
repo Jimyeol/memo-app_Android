@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gom="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/memo_save"
+        android:visible="true"
+        android:enabled="true"
+        gom:showAsAction="always"
+        android:title="memo_save"
+        />
+    <item
+        android:id="@+id/memo_cancel"
+        android:visible="true"
+        android:enabled="true"
+        gom:showAsAction="always"
+        android:title="memo_cancel"
+        />
+</menu>

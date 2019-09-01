@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioColor">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_popup_color_default"
+            android:id="@+id/radioDefalt"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_popup_color_Blue"
+            android:id="@+id/radioBlue"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn_blue"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_popup_color_Green"
+            android:id="@+id/radioGreen"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn_green"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_popup_color_Pink"
+            android:id="@+id/radioPink"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn_pink"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_popup_color_Puple"
+            android:id="@+id/radioPuple"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn_puple"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/popup_color_ok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/option_popup_color_Ok"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="popup_view_entries">
+        <item>기본</item>
+        <item>하늘</item>
+        <item>초록</item>
+        <item>분홍</item>
+        <item>연보라</item>
+    </string-array>
+    <string-array name="popup_view_values">
+        <item>radioDefalt</item>
+        <item>radioBlue</item>
+        <item>radioGreen</item>
+        <item>radioPink</item>
+        <item>radioPuple</item>
+    </string-array>
+
+    <string-array name="title_bar_menu_sort">
+        <item>시간순으로 정렬</item>
+        <item>생성순으로 정렬</item>
+        <item>제목순으로 정렬</item>
+        <item>내용순으로 정렬</item>
+    </string-array>
+</resources>

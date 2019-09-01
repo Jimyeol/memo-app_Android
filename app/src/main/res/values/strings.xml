@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">메모하는 습관</string>
+    <string name="action_settings">설정</string>
+
+    <string name="menu_cancel">취소</string>
+
+    <!--메모 수정, 추가시 메모추가 액티비티-->
+    <string name="memoadd_title">제목</string>
+    <string name="memoadd_hint_title">제목 입력</string>
+    <string name="memoadd_hint_body">내용 입력</string>
+    <string name="memoadd_no_title">제목 없음</string>
+    <string name="memoadd_no_body">내용 없음</string>
+
+    <!--컨텍스트 메뉴 (노트 롱클릭시)-->
+    <string name="contextmenu_Delete">삭제</string>
+    <string name="contextmenu_Selecet">팝업 설정</string>
+    <string name="contextmenu_Share">공유</string>
+    <string name="contextmenu_Information">메모 정보</string>
+
+    <!--팝업 기능 없는데 팝업 설정할때-->
+    <string name="nopopup_setting_toast">
+        팝업기능이 설정되어 있지 않습니다. 옵션에서 팝업기능을 켜주세요.</string>
+
+    <!--서치 (검색기능-->
+    <string name="search_hint">검색하세요.</string>
+
+    <!--옵션 / 메뉴 목록-->
+    <string name="option_list_title_popup">팝업설정</string>
+    <string name="option_list_title_note">노트설정</string>
+    <string name="option_list_title_app">어플리케이션 정보</string>
+    <string name="option_list_popup_onoff">켜기/끄기</string>
+    <string name="option_list_pupup_transparent">투명도 조절</string>
+    <string name="option_list_pupup_color_pick">디자인 선택</string>
+    <string name="option_list_note_all_delete">전체 삭제</string>
+    <string name="option_list_version">어플리케이션 정보</string>
+
+    <!--옵션 / 전체삭제-->
+    <string name="option_delete_all_title">모든 노트 삭제</string>
+    <string name="option_delete_all_message">모든 노트를 삭제하겠습니까?</string>
+    <string name="option_delete_all_yes">네</string>
+    <string name="option_delete_all_no">아니오</string>
+    <string name="option_delete_all_no_message">휴.. 당신의 추억들이 사라질뻔 했어요.</string>
+    <string name="option_delete_all_yes_message">당신의 추억이 담긴 노트들을 전부다 삭제하였습니다.</string>
+
+    <!--옵션 / 투명도 조절-->
+    <string name="option_transparent">투명도 조절</string>
+    <string name="option_transparent_ok">확인</string>
+
+    <!--옵션 / 팝업 색상 변경-->
+    <string name="option_popup_color_pick">색상 선택</string>
+    <string name="option_popup_color_default">기본</string>
+    <string name="option_popup_color_Blue">하늘</string>
+    <string name="option_popup_color_Green">초록</string>
+    <string name="option_popup_color_Pink">분홍</string>
+    <string name="option_popup_color_Puple">연보라</string>
+    <string name="option_popup_color_Ok">확인</string>
+
+    <!--옵션 / 버전-->
+    <string name="option_version">메모하는 습관 Ver 1.0</string>
+
+    <!--타이틀바 메뉴 -->
+    <string name="title_bar_menu_option">옵션</string>
+    <string name="title_bar_menu_sort">정렬</string>
+
+    <!--타이틀바 정렬 메뉴 -->
+    <string name="title_bar_menu_sort_create">생성순으로 정렬</string>
+    <string name="title_bar_menu_sort_time">시간순으로 정렬</string>
+    <string name="title_bar_menu_sort_title">제목순으로 정렬</string>
+    <string name="title_bar_menu_sort_body">내용순으로 정렬</string>
+
+
+
+    <!--메모 수정 모드 -->
+    <string name="memo_change_mode">메모를 수정합니다.</string>
+    <string name="memo_save">메모를 저장합니다.</string>
+    <string name="memo_no_change_mode">메모가 수정되지 않았습니다.</string>
+
+
+    <!--메모 공유 모드 -->
+    <string name="memo_share_title">제목 : </string>
+    <string name="memo_share_body">내용 : </string>
+    <string name="memo_share_time">수정된 시간 : </string>
+
+    <!--옵션 / 텍스트 사이즈 변경-->
+    <string name="option_popup_text_size_title">글자크기 조절</string>
+    <string name="option_popup_text_size">미리보기</string>
+    <string name="option_popup_text_size_preview">Memo</string>
+    <string name="option_popup_text_size_Ok">확인</string>
+
+</resources>

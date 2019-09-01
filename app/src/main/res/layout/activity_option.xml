@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:text="팝업 ON/OFF"
+        android:id="@+id/swPopupOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioColor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메모 색상"
+            android:id="@+id/textView2"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  기본"
+            android:id="@+id/radioDefalt"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  하늘"
+            android:id="@+id/radioBlue"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn_blue"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  초록"
+            android:id="@+id/radioGreen"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn_green"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  분홍"
+            android:id="@+id/radioPink"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn_pink"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  연보라"
+            android:id="@+id/radioPuple"
+            android:checked="false"
+            android:drawableLeft="@drawable/size_btn_puple"/>
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/lvOption"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+
+</LinearLayout>
